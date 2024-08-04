@@ -21,7 +21,7 @@ import { Prod } from './interfaces/Product.interface.ts';
 const Menu = lazy(() => import('./pages/Menu/Menu.tsx'))
 const router = createHashRouter([
   {
-    path: '/online-store/',
+    path: '/',
     element: <RequireAuth><Layout/></RequireAuth>,
     children:[
       {

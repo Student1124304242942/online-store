@@ -32,7 +32,7 @@ const Register = () => {
   
   useEffect(() => {
     if(jwt){
-      navigate('/online-store/');
+      navigate('/');
     }
   }, [jwt, navigate]);
   
