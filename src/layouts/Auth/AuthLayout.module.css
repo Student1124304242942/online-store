@@ -1,0 +1,27 @@
+.layout {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border-right: 1px solid #D4D6E0
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+@media (max-width: 640px){
+    .logo {
+        display: none;
+    }
+}

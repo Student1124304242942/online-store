@@ -1,0 +1,119 @@
+.prodCart {
+    width: 323px;
+    height: 247.71px;
+}
+
+.prodView {
+    background-repeat: no-repeat;
+    height:  165.14px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.price {
+    width: 81.36px;
+    height: 34px;
+    background: var(--white-color);
+    box-shadow: 0px 7.1px 28.4px 0px #FE724C33;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+}
+
+.price p span {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: var(--primary-color);
+}
+
+.shop {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+    margin: 0 10px
+}
+
+.evaluation {
+    width: 51px;
+    height: 29px;
+    border-radius: 136px;
+    background: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -14.5px;
+    left: 10px;
+}
+
+.evaluation p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-name {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: left;
+}
+
+.product-name h3 {
+    font-family: var(--font);
+    font-size: 18.21px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+.product-name p {
+    font-family: var(--font);
+    font-size: 14.57px;
+    font-weight: 400;
+    line-height: 19.84px;
+    color: var(--text-secondary-color);
+    margin-top: 0;
+}
+
+.cart-btn {
+    width: 34px;
+    height: 34px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    position: relative;   
+}
+
+@media (max-width: 640px){
+    .prodCart {
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+
+    .prodView {
+        width: 100%;
+        background-size: cover;
+        height: 60%;
+    }
+}

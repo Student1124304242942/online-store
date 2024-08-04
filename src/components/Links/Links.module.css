@@ -1,0 +1,22 @@
+.links-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.link1,.link2 {
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+}
+
+.link2 {
+    color: var(--primary-color);
+}
+
+.link1 {
+    color: var(--text-secondary-color);
+}

@@ -1,0 +1,125 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item .surface {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+
+.image {
+    width: 82px;
+    height: 82px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 8px 25px rgba(224, 219, 196, 0.90));
+}
+
+.item-name p {
+    display: flex;
+    gap: 5px;
+    color: var(--primary-color);
+}
+
+.item-name h3 {
+    color: var(--text-color);
+    font-size: 18.21px;
+    font-weight: 600;
+    font-family: var(--font);
+    line-height: 25px;
+}
+
+.btn-parents {
+    display: flex;
+    gap: 0;
+}
+
+.btn-parents div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-parents div button:not(:last-child)  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28.28px;
+    height: 28.28px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    background: var(--primary-color);
+}
+
+.btn-parents div .button:nth-child(1){
+    background: var(--white-color);
+}
+
+.mobile-item {
+    display: flex;
+}
+
+.btn-parents button {
+    background: none;
+}
+
+.remove, .mobile-remove {
+    margin-left: 5px;
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.mobile-remove {
+    display: none;
+}
+
+@media (max-width: 640px){ 
+   .btn-parents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .item-name h3 {
+        color: var(--text-color);
+        font-size: 16px;
+        font-weight: 600;
+        font-family: var(--font);
+        line-height: 25px;
+    }
+
+}
+
+@media(max-width: 867px){
+    .mobile-remove {
+        display: block;
+    } 
+
+    .btn-parents {
+        flex-direction: column;
+    }
+
+    .remove {
+        display: none;
+    }
+
+    .btn-parents {
+        flex-direction: row;
+    }
+
+    .btn-parents div {
+        flex-direction: column;
+    }    
+}
+
+

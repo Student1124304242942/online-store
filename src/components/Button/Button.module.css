@@ -1,0 +1,35 @@
+.big {
+    width: 248px;
+    height: 60px; 
+}
+
+.small {
+    width: 141px;
+    height: 44px; 
+}
+
+.button {
+    border-radius: 28.5px;
+    background: var(--primary-color);
+    border: 0.8px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    box-shadow: var(--box-shadow-color);
+    color: var(--white-color);
+    gap: 10px;
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.43px;
+    letter-spacing: 0.08em;
+}
+
+.accent {
+    transition: 0.5s;
+}
+
+.accent:hover {
+    background: var(--primary-hover-color);
+}

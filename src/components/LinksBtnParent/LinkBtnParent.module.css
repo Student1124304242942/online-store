@@ -1,0 +1,13 @@
+.linksBtnParent {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.linksBtnParent button {
+    margin-top: 40px;
+}

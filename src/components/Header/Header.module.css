@@ -1,0 +1,15 @@
+h1 {
+    font-family: var(--font);
+    font-size: 36.41px;
+    font-weight: 600;
+    line-height: 43.7px;
+}
+
+@media (max-width: 640px){  
+    h1 {
+        font-family: var(--font);
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35px;
+    }     
+}

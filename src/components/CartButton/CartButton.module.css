@@ -1,0 +1,7 @@
+.cart-btn {
+    width: 34px;
+    height: 34px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    position: relative;   
+}
