@@ -5,7 +5,7 @@ import './index.css';
 import Login from './pages/Login/Login.tsx';
 import { Cart} from './pages/Cart/Cart';
 import { Error as ErrorPage } from './pages/Error/Error';
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 import { RouterProvider } from 'react-router-dom';
 import { Layout } from './layouts/Menu/Layout.tsx';
 import Product from './components/Product/Product.tsx';
@@ -19,9 +19,9 @@ import { store } from './components/store/store.ts';
 import { Success } from './pages/Success/Success.tsx';
 import { Prod } from './interfaces/Product.interface.ts';
 const Menu = lazy(() => import('./pages/Menu/Menu.tsx'))
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: '/',
+    path: '/online-store/',
     element: <RequireAuth><Layout/></RequireAuth>,
     children:[
       {

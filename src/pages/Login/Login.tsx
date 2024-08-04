@@ -29,7 +29,7 @@ const Login = () => {
   
   useEffect(() => {
     if(jwt){
-      navigate('/');
+      navigate('/online-store/');
     }
   }, [jwt, navigate]);
   

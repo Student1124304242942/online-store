@@ -7,6 +7,6 @@ export function Success () {
     return  <div className={cl(styles['success'])}>
         <img loading='lazy' src="pizza.svg" alt="" />
         <h2>Ваш заказ успешно <br/>оформлен!</h2>
-        <Button appearance='big' onClick={() => navigate('/')}>Сделать новый</Button> 
+        <Button appearance='big' onClick={() => navigate('/online-store/')}>Сделать новый</Button> 
 </div> 
 }
