@@ -66,8 +66,8 @@ const Register = () => {
               <Input name="name" id="name"/>          
           </div>
           <LinkBtnParent>
-              <Button appearance="big">Вход</Button>
-              <Links link="/auth/login" firstLink="Нет аккаунта ?" secondLink="Зарегистрироваться"/>
+              <Button appearance="big">Зарегистрироваться</Button>
+              <Links link="/auth/login" firstLink="Есть аккаунт ?" secondLink="Войти"/>
           </LinkBtnParent> 
         </div>
     </form>

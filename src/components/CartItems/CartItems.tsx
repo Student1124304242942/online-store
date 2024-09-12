@@ -23,7 +23,7 @@ const CartItem = (props: CartItems) => {
     return (
             <div className={cl(styles['item'])}>
                 <div className={cl(styles['surface'])}>
-                    <div className={cl(styles['image'])} style={{ backgroundImage: `url(/${props.image})` }}></div>
+                    <div className={cl(styles['image'])} style={{ backgroundImage: `url(${props.image})` }}></div>
                     <div className={cl(styles['item-name'])}>
                         <h3>{props.name}</h3>
                         <p>{props.price}<span>₽</span></p>  
