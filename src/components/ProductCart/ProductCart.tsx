@@ -21,6 +21,9 @@ const ProductCart = (props:ProductCartElements) => {
             <p>
               {props.price} 
               <span>₽</span>
+              <p>
+                gfgbfhdgggggggggggggggggggggggftrgfhtrgfdgg
+              </p>
             </p>
           </div>
           <button className={cl(styles['cart-btn'])} onClick={add}>
