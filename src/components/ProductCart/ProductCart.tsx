@@ -15,7 +15,7 @@ const ProductCart = (props:ProductCartElements) => {
   }
   return (
     <Link to={`/product/${props.id}`} className={cl(styles['prodCart'])}>
-      <div className={cl(styles['prodView'])} style={{backgroundImage: `url(${props.image})`}}>
+      <div className={cl(styles['prodView'])} style={{backgroundImage: `url(/${props.image})`}}>
         <div className={cl(styles['shop'])}>
           <div className={cl(styles['price'])}>
             <p>

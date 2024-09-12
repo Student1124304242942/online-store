@@ -5,7 +5,7 @@ const Input = ({...props} :InputProps) => {
   return (
     <div className={cl(styles['input'])}>
       <button>
-        <img src='search.svg'/>
+        <img src='/search.svg'/>
       </button>
        <input type="text"  {...props}/>
     </div>

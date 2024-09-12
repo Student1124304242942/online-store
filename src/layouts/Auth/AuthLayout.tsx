@@ -6,7 +6,7 @@ import styles from './AuthLayout.module.css';
   return (
     <div className={cl(styles['layout'])}>
         <div className={cl(styles['logo'])}>
-            <img className={cl(styles['img'])} src="logo.svg" alt='Логотип компании'/>
+            <img className={cl(styles['img'])} src="/logo.svg" alt='Логотип компании'/>
         </div>
         <div className={cl(styles['content'])}>
             <Outlet/>

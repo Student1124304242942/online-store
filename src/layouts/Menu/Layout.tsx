@@ -61,13 +61,13 @@ export function Layout() {
                 <User userContact = {`${profile?.email}`}>{`${profile?.name}`}</User>
                 <div className={cl(styles['navbar'])}>
                     <div>
-                        <img src="List.svg" alt="" />
+                        <img src="/List.svg" alt="" />
                         <NavLink onClick={sideBar}  to='/' className= {({isActive}) => cl(styles['link'], {
                             [styles.active]: isActive
                         })}>Меню</NavLink>
                     </div>
                     <div onClick={sideBar}>
-                        <img src="bucket2.svg" alt="" />    
+                        <img src="/bucket2.svg" alt="" />    
                         <NavLink onClick={sideBar} to='/cart' className= {({isActive}) => cl(styles['link'], {
                             [styles.active]: isActive
                         })}>корзина</NavLink>
@@ -75,7 +75,7 @@ export function Layout() {
                     </div>
                 </div>
                 <Button appearance="small" onClick={logoOut}>
-                    <img src="off.svg" alt="" />
+                    <img src="/off.svg" alt="" />
                     Выйти
                 </Button>
         </div>

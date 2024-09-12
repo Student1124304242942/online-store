@@ -1,7 +1,7 @@
  const SideHeader = () => {
   return (
     <div>
-      <img src="ProfilePicture.svg"/>  
+      <img src="/ProfilePicture.svg"/>  
     </div>
   )
 }
