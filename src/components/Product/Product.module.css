@@ -28,6 +28,9 @@
     width: 323px;
     height: 200px;
     border-radius: 18.21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-content {

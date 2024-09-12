@@ -39,7 +39,7 @@ const Product = () => {
                                     </Button>
                                 </div>
                                 <div className={cl(styles['main-content'])}>
-                                    <div className={cl(styles['product-view'])} style={{ background: `url(${data.image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}></div>
+                                    <div className={cl(styles['product-view'])} style={{ backgroundImage: `url(${data.image})`}}></div>
                                     <div className={cl(styles['product-characteristic'])}>
                                         <div>Цена <span>{data.price}&nbsp;₽</span></div>
                                         <div>Рейтинг <span>{data.rating}</span></div>
