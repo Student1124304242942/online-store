@@ -84,7 +84,10 @@ export function Layout() {
             {<button onClick={sideBar} className={cl({
                 [styles['invisible']]: mobileSideBar,
                 [styles['menu-btn']]: !mobileSideBar
-            })} style={{ opacity: (isButtonVisible && !mobileSideBar) ? 1 : 0 }}>Меню</button>}
+            })} style={{ opacity: (isButtonVisible && !mobileSideBar) ? 1 : 0 }}>
+                <img src="menu.svg" alt="" />
+                <div>Меню</div>
+            </button>}
         </main>
     </div>
 }

@@ -1,7 +1,6 @@
 import {  Outlet } from "react-router-dom";
 import cl from "classnames";
 import styles from './AuthLayout.module.css';
-/* import Button from "../../components/Button/Button"; */
  const AuthLayout = () => {
   return (
     <div className={cl(styles['layout'])}>

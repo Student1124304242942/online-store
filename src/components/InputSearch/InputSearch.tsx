@@ -1,7 +1,6 @@
-import { InputProps } from "./InputSearch.props"
-import cl from "classnames"
+ import cl from "classnames"
 import styles from './InputSearch.module.css'
-const Input = ({...props} :InputProps) => {
+const Input = ({...props}) => {
   return (
     <div className={cl(styles['input'])}>
       <button>
